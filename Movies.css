@@ -1,0 +1,169 @@
+body {
+    background-color: rgb(40, 36, 36);
+    color: #FFF;
+}
+
+nav {
+    background-color: #000;
+    height: 100px;
+    position: sticky;
+    top: 20px;
+}
+
+.navbar li a:active {
+    color: #FFF;
+}
+
+.navbar li a:hover {
+    /*background-color: orange;
+    color: #FFF;*/
+    text-decoration: none;
+    color: red;
+}
+
+.logIn a:hover, .signUp a:hover {
+    /*background-color: orange;
+    color: #FFF;*/
+    text-decoration: none;
+    /*border-radius: 28%;*/
+    color: red;
+}
+
+.logIn, .signUp {
+    display: inline-block;
+    font-family: "Poor Story";
+    font-weight: 600;
+    font-size: 160%;
+}
+
+.form {
+    position: absolute;
+    left: 960px;
+    top: 46px;
+    font-style: italic;
+}
+
+.subs {
+    position: absolute;
+    left: 1260px;
+    top: 40px;
+}
+
+/*.list {
+    position: absolute;
+    left: 300px;
+    top: 50px;
+    font-family: ;
+    word-spacing: 10px;
+    font-weight: 500;
+    font-size: 160%;
+}*/
+
+.h1 {
+    position: relative;
+    left: 30px;
+    top: 20px;
+    font-weight: bold;
+    font-family: 'Permanent Marker';
+}
+
+.navbar {
+    position: absolute;
+    left: 300px;
+    top: 10px;
+    font-family: "Poor Story";
+    word-spacing: 10px;
+    font-weight: 500;
+    font-size: 160%;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.sayHello {
+    position: relative;
+    left: 500px;
+    top: 138px;
+}
+
+.sayHello h1 {
+    font-size: 500%;
+    font-family: "Zen Antique";
+}
+
+.sayHello .introduce {
+    font-size: 120%;
+    font-family: "Zen Antique";
+    color: hsl(0, 0%, 62%);
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.logIn {
+    position: relative;
+    right: 16px;
+}
+
+footer .foot li {
+    display: inline-block;
+}
+
+.community {
+    position: relative;
+    left: 120px;
+}
+
+.overview {
+    position: relative;
+    left: 80px;
+}
+
+.know {
+    position: relative;
+    left: 40px;
+}
+
+.footerHead {
+    position: absolute;
+    left: 1000px;
+    top: 620px;
+}
+
+h4 {
+    color: rgb(149, 149, 149);
+    font-size: 120%;
+}
+
+footer a:hover {
+    transition-property: color;
+    transition-duration: 0.4s;
+    transition-timing-function: linear;
+    transition-delay: 0.2ms;
+    color: red;
+}
+
+a:hover {
+    transition-property: color;
+    transition-duration: 0.4s;
+    transition-timing-function: linear;
+    transition-delay: 0.2ms;
+}
+
+.footer {
+    font-size: 60px;
+    font-family: "Permanent Marker";
+}
+
+/*main {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSMjltpAIAB1gj24xPG3u-E-kYDxrH-SyCUQ&usqp=CAU');
+}*/
+
+body {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSMjltpAIAB1gj24xPG3u-E-kYDxrH-SyCUQ&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: 2000px;
+} 
